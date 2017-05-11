@@ -1,0 +1,15 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// default variables
+@import "globals";
+
+// import theme style
+@import "minima";
+
+// styles for addons etc.
+@import "addons/pagination";
+
+// put large files last
+@import "support/svg-icons";
